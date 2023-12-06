@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.lynx.core": "1.1.2",
+    "com.lynx.modules": "1.1.2",
     "com.ultraleap.tracking": "https://github.com/ultraleap/UnityPlugin.git?path=/Packages/Tracking",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.feature.development": "1.0.1",
@@ -46,5 +48,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Lynx",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.lynx"
+      ]
+    }
+  ]
 }
