@@ -62,8 +62,6 @@ Shader "Lynx/Unlit/AlphaCut"
                 col.a = col.x;
                 col.rgb = i.color.rgb;
                 clip(col.a - _Cutoff);
-                // apply fog
-                UNITY_APPLY_FOG(i.fogCoord, col);
                 return col;
             }
             ENDCG
